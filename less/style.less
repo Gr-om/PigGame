@@ -1,0 +1,86 @@
+body {
+  background-color: #F5E5C0;
+  color: #2F3440;
+}
+.scores {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 15px;
+  .score {
+    color: #B54A35;
+  }
+}
+.gameboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > h1 {
+    color: #3F5666;
+    .player-name {
+      color: #B54A35;
+    }
+  }
+}
+.dices-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  > h1 {
+    color: #3F5666;
+  }
+  .total {
+    color: #3F5666;
+    font-weight: bold;
+  }
+  .total-value {
+    color: #B54A35;
+  }
+}
+.dices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  .dice {
+    padding: 15px;
+    background-color: #3F5666;
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 15px;
+  }
+}
+
+.actions {
+  display:flex;
+  button { 
+    flex: 1 0 calc(50% - 20px);
+    background-color: #F8CA4D;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px #2F3440;
+    padding: 5px 15px;
+    margin: 10px;
+    outline: none;
+    font-weight: bold;
+    color: #3F5666;
+    
+    &:hover {
+      filter: brightness(1.1);
+    }
+    &:active {
+      filter: brightness(0.6);
+    }
+  }
+}
+
+.stock-container {
+  font-weight: bold;
+  color: #3F5666;
+  .stock {
+    color: #B54A35;
+  }
+}

@@ -1,0 +1,113 @@
+body {
+  background-color: #F5E5C0;
+  color: #2F3440;
+}
+.scores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  padding: 15px;
+}
+.scores .score {
+  color: #B54A35;
+}
+.gameboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gameboard > h1 {
+  color: #3F5666;
+}
+.gameboard > h1 .player-name {
+  color: #B54A35;
+}
+.dices-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.dices-container > h1 {
+  color: #3F5666;
+}
+.dices-container .total {
+  color: #3F5666;
+  font-weight: bold;
+}
+.dices-container .total-value {
+  color: #B54A35;
+}
+.dices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+.dices .dice {
+  padding: 15px;
+  background-color: #3F5666;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  width: 15px;
+}
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.actions button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(30%);
+          flex: 1 0 calc(30%);
+  background-color: #F8CA4D;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px #2F3440;
+  padding: 5px 15px;
+  margin: 10px;
+  outline: none;
+  font-weight: bold;
+  color: #3F5666;
+}
+.actions button:hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+.actions button:active {
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+.stock-container {
+  font-weight: bold;
+  color: #3F5666;
+}
+.stock-container .stock {
+  color: #B54A35;
+}
