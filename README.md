@@ -1,3 +1,3 @@
-# PigGame
+# PigGame - Student Project
 
 Javascript Pig Game
